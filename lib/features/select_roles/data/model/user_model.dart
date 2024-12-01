@@ -1,0 +1,1 @@
+enum RoleName { innovator, investor }
