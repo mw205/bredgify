@@ -1,4 +1,4 @@
-import 'package:bridgefy/features/data/model/socail_auth_model.dart';
+import 'package:bridgefy/core/model/socail_auth_model.dart';
 import 'package:bridgefy/features/sign_in/presentation/widgets/socail_authbutton.dart';
 import 'package:bridgefy/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
@@ -8,16 +8,16 @@ class SocialAuthenticationBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<SocailAuthModel> socialAuthMethods = [
-      SocailAuthModel(
+    List<SocailWaysModel> socialAuthMethods = [
+      SocailWaysModel(
         image: Assets.images.googleLogo.path,
         onTap: () {},
       ),
-      SocailAuthModel(
+      SocailWaysModel(
         image: Assets.images.linkedInLogo.path,
         onTap: () {},
       ),
-      SocailAuthModel(
+      SocailWaysModel(
         image: Assets.images.githubLogo.path,
         onTap: () {},
       ),

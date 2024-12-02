@@ -46,55 +46,67 @@ class _SelectRolesScreenState extends State<SelectRolesScreen> {
                   style: AppTextStyles.kBlack16FontW500,
                 ),
                 Gap(12.h),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: ColorName.gray,
-                    ),
-                    borderRadius: BorderRadius.circular(8.r),
-                  ),
-                  child: Row(
-                    children: [
-                      Radio(
-                        activeColor: ColorName.darkBlue,
-                        value: RoleName.innovator,
-                        groupValue: roleName,
-                        onChanged: (value) {
-                          changeRole(RoleName.innovator);
-                        },
+                GestureDetector(
+                  onTap: () {
+                    changeRole(RoleName.innovator);
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: ColorName.gray,
                       ),
-                      Text(
-                        "Innovator",
-                        style: AppTextStyles.kBlack16FontW500,
-                      )
-                    ],
+                      borderRadius: BorderRadius.circular(8.r),
+                    ),
+                    child: Row(
+                      children: [
+                        Radio(
+                          activeColor: ColorName.darkBlue,
+                          value: RoleName.innovator,
+                          groupValue: roleName,
+                          onChanged: (value) {
+                            changeRole(RoleName.innovator);
+                          },
+                        ),
+                        Text(
+                          "Innovator",
+                          style: AppTextStyles.kBlack16FontW500,
+                        )
+                      ],
+                    ),
                   ),
                 ),
                 Gap(14.h),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: ColorName.gray,
+                GestureDetector(
+                  onTap: () {
+                    changeRole(
+                      RoleName.investor,
+                    );
+                  },
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: ColorName.gray,
+                      ),
+                      borderRadius: BorderRadius.circular(8.r),
                     ),
-                    borderRadius: BorderRadius.circular(8.r),
-                  ),
-                  child: Row(
-                    children: [
-                      Radio(
-                        activeColor: ColorName.darkBlue,
-                        value: RoleName.investor,
-                        groupValue: roleName,
-                        onChanged: (value) {
-                          changeRole(
-                            RoleName.investor,
-                          );
-                        },
-                      ),
-                      Text(
-                        "Investor",
-                        style: AppTextStyles.kBlack16FontW500,
-                      ),
-                    ],
+                    child: Row(
+                      children: [
+                        Radio(
+                          activeColor: ColorName.darkBlue,
+                          value: RoleName.investor,
+                          groupValue: roleName,
+                          onChanged: (value) {
+                            changeRole(
+                              RoleName.investor,
+                            );
+                          },
+                        ),
+                        Text(
+                          "Investor",
+                          style: AppTextStyles.kBlack16FontW500,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Gap(200.h),

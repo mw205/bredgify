@@ -4,6 +4,7 @@ import 'dart:developer';
 import 'package:bridgefy/core/network/api_error_handler.dart';
 import 'package:bridgefy/core/network/api_result.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
 
 /// A utility class for handling API calls with error management and response parsing.
 ///
@@ -72,7 +73,7 @@ class ApiCallHandler {
         );
       }
     } on DioException catch (e) {
-      print("**********************************************");
+      debugPrint("**********************************************");
       print(e.response);
       // Handle DioException errors, such as network or server errors.
       ApiErrorHandler handler = ApiErrorHandler(

@@ -28,15 +28,54 @@ class $AssetsFontsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/agriculture.svg
+  SvgGenImage get agriculture =>
+      const SvgGenImage('assets/images/agriculture.svg');
+
   /// File path: assets/images/banner.png
   AssetGenImage get banner => const AssetGenImage('assets/images/banner.png');
 
   /// File path: assets/images/blue_logo.svg
   SvgGenImage get blueLogo => const SvgGenImage('assets/images/blue_logo.svg');
 
+  /// File path: assets/images/celebrate_icon.svg
+  SvgGenImage get celebrateIcon =>
+      const SvgGenImage('assets/images/celebrate_icon.svg');
+
+  /// File path: assets/images/circle_logo.png
+  AssetGenImage get circleLogo =>
+      const AssetGenImage('assets/images/circle_logo.png');
+
+  /// File path: assets/images/community.svg
+  SvgGenImage get community => const SvgGenImage('assets/images/community.svg');
+
+  /// File path: assets/images/ecommerce.svg
+  SvgGenImage get ecommerce => const SvgGenImage('assets/images/ecommerce.svg');
+
+  /// File path: assets/images/economy.svg
+  SvgGenImage get economy => const SvgGenImage('assets/images/economy.svg');
+
+  /// File path: assets/images/education.svg
+  SvgGenImage get education => const SvgGenImage('assets/images/education.svg');
+
   /// File path: assets/images/email_icon.svg
   SvgGenImage get emailIcon =>
       const SvgGenImage('assets/images/email_icon.svg');
+
+  /// File path: assets/images/energy.svg
+  SvgGenImage get energy => const SvgGenImage('assets/images/energy.svg');
+
+  /// File path: assets/images/environment.svg
+  SvgGenImage get environment =>
+      const SvgGenImage('assets/images/environment.svg');
+
+  /// File path: assets/images/explore_icon_active.svg
+  SvgGenImage get exploreIconActive =>
+      const SvgGenImage('assets/images/explore_icon_active.svg');
+
+  /// File path: assets/images/explore_icon_inactive.svg
+  SvgGenImage get exploreIconInactive =>
+      const SvgGenImage('assets/images/explore_icon_inactive.svg');
 
   /// File path: assets/images/eye_disabled.svg
   SvgGenImage get eyeDisabled =>
@@ -50,6 +89,18 @@ class $AssetsImagesGen {
   SvgGenImage get facebookIcon =>
       const SvgGenImage('assets/images/facebook_icon.svg');
 
+  /// File path: assets/images/favorite_icon_active.svg
+  SvgGenImage get favoriteIconActive =>
+      const SvgGenImage('assets/images/favorite_icon_active.svg');
+
+  /// File path: assets/images/favorite_icon_inactive.svg
+  SvgGenImage get favoriteIconInactive =>
+      const SvgGenImage('assets/images/favorite_icon_inactive.svg');
+
+  /// File path: assets/images/filter_icon.svg
+  SvgGenImage get filterIcon =>
+      const SvgGenImage('assets/images/filter_icon.svg');
+
   /// File path: assets/images/github_logo.svg
   SvgGenImage get githubLogo =>
       const SvgGenImage('assets/images/github_logo.svg');
@@ -58,12 +109,48 @@ class $AssetsImagesGen {
   SvgGenImage get googleLogo =>
       const SvgGenImage('assets/images/google_logo.svg');
 
+  /// File path: assets/images/health.svg
+  SvgGenImage get health => const SvgGenImage('assets/images/health.svg');
+
+  /// File path: assets/images/home_banner.png
+  AssetGenImage get homeBanner =>
+      const AssetGenImage('assets/images/home_banner.png');
+
+  /// File path: assets/images/home_icon_active.svg
+  SvgGenImage get homeIconActive =>
+      const SvgGenImage('assets/images/home_icon_active.svg');
+
+  /// File path: assets/images/home_icon_inactive.svg
+  SvgGenImage get homeIconInactive =>
+      const SvgGenImage('assets/images/home_icon_inactive.svg');
+
+  /// File path: assets/images/industry.svg
+  SvgGenImage get industry => const SvgGenImage('assets/images/industry.svg');
+
+  /// File path: assets/images/land.png
+  AssetGenImage get land => const AssetGenImage('assets/images/land.png');
+
+  /// File path: assets/images/leaving.svg
+  SvgGenImage get leaving => const SvgGenImage('assets/images/leaving.svg');
+
   /// File path: assets/images/linked_in_logo.svg
   SvgGenImage get linkedInLogo =>
       const SvgGenImage('assets/images/linked_in_logo.svg');
 
   /// File path: assets/images/lock_icon.svg
   SvgGenImage get lockIcon => const SvgGenImage('assets/images/lock_icon.svg');
+
+  /// File path: assets/images/mohamed_ali.png
+  AssetGenImage get mohamedAli =>
+      const AssetGenImage('assets/images/mohamed_ali.png');
+
+  /// File path: assets/images/notification_icon.svg
+  SvgGenImage get notificationIcon =>
+      const SvgGenImage('assets/images/notification_icon.svg');
+
+  /// File path: assets/images/notification_not_found.svg
+  SvgGenImage get notificationNotFound =>
+      const SvgGenImage('assets/images/notification_not_found.svg');
 
   /// File path: assets/images/on_boarding.svg
   SvgGenImage get onBoarding =>
@@ -73,25 +160,89 @@ class $AssetsImagesGen {
   SvgGenImage get onBoarding1 =>
       const SvgGenImage('assets/images/on_boarding1.svg');
 
+  /// File path: assets/images/person.svg
+  SvgGenImage get person => const SvgGenImage('assets/images/person.svg');
+
+  /// File path: assets/images/profile_icon_active.svg
+  SvgGenImage get profileIconActive =>
+      const SvgGenImage('assets/images/profile_icon_active.svg');
+
+  /// File path: assets/images/profile_icon_inactive.svg
+  SvgGenImage get profileIconInactive =>
+      const SvgGenImage('assets/images/profile_icon_inactive.svg');
+
+  /// File path: assets/images/search_icon.svg
+  SvgGenImage get searchIcon =>
+      const SvgGenImage('assets/images/search_icon.svg');
+
+  /// File path: assets/images/splash.png
+  AssetGenImage get splash => const AssetGenImage('assets/images/splash.png');
+
+  /// File path: assets/images/technolog.svg
+  SvgGenImage get technolog => const SvgGenImage('assets/images/technolog.svg');
+
+  /// File path: assets/images/tourism.svg
+  SvgGenImage get tourism => const SvgGenImage('assets/images/tourism.svg');
+
+  /// File path: assets/images/water.svg
+  SvgGenImage get water => const SvgGenImage('assets/images/water.svg');
+
+  /// File path: assets/images/white_logo.png
+  AssetGenImage get whiteLogoPng =>
+      const AssetGenImage('assets/images/white_logo.png');
+
   /// File path: assets/images/white_logo.svg
-  SvgGenImage get whiteLogo =>
+  SvgGenImage get whiteLogoSvg =>
       const SvgGenImage('assets/images/white_logo.svg');
 
   /// List of all assets
   List<dynamic> get values => [
+        agriculture,
         banner,
         blueLogo,
+        celebrateIcon,
+        circleLogo,
+        community,
+        ecommerce,
+        economy,
+        education,
         emailIcon,
+        energy,
+        environment,
+        exploreIconActive,
+        exploreIconInactive,
         eyeDisabled,
         eyeEnabled,
         facebookIcon,
+        favoriteIconActive,
+        favoriteIconInactive,
+        filterIcon,
         githubLogo,
         googleLogo,
+        health,
+        homeBanner,
+        homeIconActive,
+        homeIconInactive,
+        industry,
+        land,
+        leaving,
         linkedInLogo,
         lockIcon,
+        mohamedAli,
+        notificationIcon,
+        notificationNotFound,
         onBoarding,
         onBoarding1,
-        whiteLogo
+        person,
+        profileIconActive,
+        profileIconInactive,
+        searchIcon,
+        splash,
+        technolog,
+        tourism,
+        water,
+        whiteLogoPng,
+        whiteLogoSvg
       ];
 }
 

@@ -10,6 +10,12 @@ class AppTextStyles {
     fontWeight: FontWeight.w600,
     fontFamily: FontFamily.poppins,
   );
+  static TextStyle kBlack13FontW400 = TextStyle(
+    color: ColorName.black,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w400,
+    fontFamily: FontFamily.poppins,
+  );
   static TextStyle kBlack16FontW500 = TextStyle(
     color: ColorName.black,
     fontSize: 16.sp,
@@ -52,11 +58,18 @@ class AppTextStyles {
     fontFamily: FontFamily.poppins,
   );
   static TextStyle kDarkBlue12FontW700Underlined = TextStyle(
-      color: ColorName.darkBlue,
-      fontSize: 12.sp,
-      fontWeight: FontWeight.w700,
-      fontFamily: FontFamily.poppins,
-      decoration: TextDecoration.underline);
+    color: ColorName.darkBlue,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w700,
+    fontFamily: FontFamily.poppins,
+    decoration: TextDecoration.underline,
+  );
+  static TextStyle kDarkBlue13FontW700 = TextStyle(
+    color: ColorName.darkBlue,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w700,
+    fontFamily: FontFamily.poppins,
+  );
   static TextStyle kSilver14FontW400 = TextStyle(
     color: ColorName.silver,
     fontSize: 14.sp,
@@ -66,5 +79,17 @@ class AppTextStyles {
     color: ColorName.darkGray,
     fontSize: 14.sp,
     fontWeight: FontWeight.w300,
+  );
+  static TextStyle kdarkBlue24FontW600 = TextStyle(
+    color: ColorName.darkBlue,
+    fontSize: 24.sp,
+    fontWeight: FontWeight.w600,
+    fontFamily: FontFamily.poppins,
+  );
+  static TextStyle kBlack24FontW600 = TextStyle(
+    color: ColorName.black,
+    fontSize: 24.sp,
+    fontWeight: FontWeight.w600,
+    fontFamily: FontFamily.poppins,
   );
 }

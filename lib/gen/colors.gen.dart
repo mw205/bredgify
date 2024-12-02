@@ -25,6 +25,9 @@ class ColorName {
   /// Color: #D9D9D9
   static const Color gray = Color(0xFFD9D9D9);
 
+  /// Color: #E6EDFF
+  static const Color lavender = Color(0xFFE6EDFF);
+
   /// Color: #F1F3F4
   static const Color lightGray = Color(0xFFF1F3F4);
 
@@ -34,6 +37,12 @@ class ColorName {
   /// Color: #B3B3B3
   static const Color silver = Color(0xFFB3B3B3);
 
+  /// Color: #D4E1FF
+  static const Color veryLightBlue = Color(0xFFD4E1FF);
+
   /// Color: #FFFFFF
   static const Color white = Color(0xFFFFFFFF);
+
+  /// Color: #FFE142
+  static const Color yellow = Color(0xFFFFE142);
 }

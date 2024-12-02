@@ -1,10 +1,12 @@
 import 'package:bridgefy/core/widgets/custom_textfield.dart';
+import 'package:bridgefy/features/forget_password/persentation/screen/forget_password_screen.dart';
 import 'package:bridgefy/gen/assets.gen.dart';
 import 'package:bridgefy/gen/colors.gen.dart';
 import 'package:bridgefy/gen/fonts.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
+import 'package:go_router/go_router.dart';
 
 class SignInForm extends StatelessWidget {
   const SignInForm({super.key});
@@ -33,7 +35,9 @@ class SignInForm extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.push(ForgetPasswordScreen.id);
+                  },
                   child: Text(
                     "Forget Password?",
                     style: TextStyle(
